@@ -166,7 +166,10 @@
       box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
       border-radius: 6px;
     }
-
+    .small-wave {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
     /* =========================
        МОБІЛЬНА АДАПТАЦІЯ
     ========================= */
@@ -312,6 +315,31 @@
       </div>
     </div>
 
+    <!-- Перехід між Варшавою та Іспанією -->
+<svg
+  class="wave small-wave"
+  width="240"
+  height="520"
+  viewBox="0 0 240 520"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    id="path-between"
+    d="
+      M120 0
+      C 175 80, 55 140, 120 210
+      C 185 280, 65 350, 120 500
+    "
+    fill="none"
+  />
+
+  <text font-size="14" fill="#2a2a2a" opacity="0.75" letter-spacing="0.1em">
+    <textPath href="#path-between" startOffset="4%">
+      далі були дороги · нові міста · сміх у дрібницях · трохи хаосу · більше сміливості · і ще більше нас
+    </textPath>
+  </text>
+</svg>
+    
     <!-- Другий етап: Іспанія -->
     <div class="photo-block story-step">
       <img src="spain.jpg" class="story-photo" alt="Фото з Іспанії">
